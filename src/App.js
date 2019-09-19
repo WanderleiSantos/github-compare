@@ -1,11 +1,12 @@
 import React from 'react';
+import GlobalStyle from './styles/global';
+import Main from './pages/Main';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-        TESTE
-    </div>
+    <>
+      <GlobalStyle />
+      <Main />
+    </>
   );
 }
-
-export default App;
